@@ -1,0 +1,15 @@
+#289 = 1gram
+
+n = 289
+amount = input("enter amount: RM")
+total = int(amount) / n
+#print("berat emas:",total,"G")
+
+
+if total > 999:
+    print( total / 1000,"KG")
+else:
+    print("berat emas:",total,"G")
+
+
+
